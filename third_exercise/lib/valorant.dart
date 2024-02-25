@@ -28,19 +28,14 @@ class valorantPage extends StatefulWidget {
 }
 
 class _valorantPage extends State<valorantPage> {
-  final List<String> _drivers = [
-    "Aspas",
-    "pAncada",
-    "Saadhak",
-    "Cauanzin"
-  ];
-  final List<String> _driversAge = ["26", "23", "26", "24"];
-  final List<String> _driversChampionship = ["5", "4", "4", "1"];
+  final List<String> _drivers = ["Aspas", "pAncada", "Saadhak", "Cauanzin"];
+  final List<String> _driversAge = ["20", "24", "26", "18"];
+  final List<String> _driversChampionship = ["1", "1", "1", "0"];
   final List<String> _driversImage = [
-    "https://cdn.ome.lt/qfUU2TUEM_sW6Ff2lrpUGPdwtP0=/770x0/smart/uploads/conteudo/fotos/tinowns-loud-1.jpeg",
-    "https://s2-ge.glbimg.com/AS55dnMaIRzB1i6YyufK_reh3u8=/0x0:1920x1280/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2022/W/y/I7bZIpSQOtKDaQpn4dKg/titan-lol-red-canids-cblol-2022.jpg",
-    "https://s2-ge.glbimg.com/1mD7fqUy1WZxo2EalNzG5A3uSLY=/0x0:640x427/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2019/G/r/nv88MVQCKkYD9lbYX5WQ/48505516487-967d8f00c7-z.jpg",
-    "https://s2-ge.glbimg.com/Y4oE9-gg1hQFYCd8Vg-vsXJqP5w=/0x0:1919x1280/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2023/S/M/NtvA75SHOJnO4r5zAH5Q/52642085687-548155b217-k.jpg"
+    "https://liquipedia.net/commons/images/thumb/1/17/LOUD_aspas_at_the_VALORANT_Champions_2022.jpg/600px-LOUD_aspas_at_the_VALORANT_Champions_2022.jpg",
+    "https://liquipedia.net/commons/images/thumb/5/5e/LOUD_pANcada_at_the_VALORANT_Champions_2022.jpg/600px-LOUD_pANcada_at_the_VALORANT_Champions_2022.jpg",
+    "https://liquipedia.net/commons/images/thumb/f/fa/LOUD_Saadhak_at_the_VALORANT_Champions_2022.jpg/600px-LOUD_Saadhak_at_the_VALORANT_Champions_2022.jpg",
+    "https://liquipedia.net/commons/images/thumb/e/e8/Cauanzin_at_the_VCT_2023_LOCKIN_S%C3%A3o_Paulo.jpg/600px-Cauanzin_at_the_VCT_2023_LOCKIN_S%C3%A3o_Paulo.jpg"
   ];
 
   @override
@@ -119,7 +114,6 @@ class _valorantPage extends State<valorantPage> {
                               fontFamily: "Persona",
                               fontWeight: FontWeight.bold),
                         ),
-                        
                       ],
                     ),
                   ],
